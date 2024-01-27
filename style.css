@@ -1,0 +1,267 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.g {
+    width: 51px;
+    height: 60px;
+    position: absolute;
+    top: -10%; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    z-index: 1; /* Set a higher z-index to bring it above other elements */
+}
+.g2{
+    width: 51px;
+    height: 60px;
+    position: absolute;
+    bottom: -10%; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the left position as needed */
+    z-index: 1; /* Set a higher z-index to bring it above other elements */
+}
+/* kuchh v kr rhi hu yaha mai  */
+
+.first-line{
+    position: relative;
+    margin-top: 30px;
+
+    
+
+}
+.star1{
+    position: absolute;
+    margin-left: 22%;
+    transform: translateY(140%) rotate(4deg); /* Adjust translateY and rotate values as needed */
+    margin-top: 15px;
+}
+.green-img1{
+  position:relative;
+  margin-left: 64%;
+  bottom: 6%;
+  
+
+ 
+}
+.second-line{
+    position: absolute ;
+    margin-top: 5%;
+    
+   
+}
+.third-line{
+    position: relative;
+    margin-top: 3%;
+}
+.green-img2{
+    position: absolute;
+    margin-left: 20%;
+    bottom: 17%;
+}
+.star2{
+    margin-left: 48%;
+    position: absolute;
+    bottom: 20%;
+}
+
+/* kuchh v kr rhi hu yaha mai  */
+
+/* Header Section */
+.head-background {
+    background-image: url('Rectangle 14.png');
+    width: 100%;
+    max-width: 86.25rem;
+    height: 617px;
+    margin: 0 auto;
+    border-radius: 16px;
+    position: relative;
+    z-index: 0;
+    margin-top: 5%;
+   
+}
+
+.head-background h1 {
+    width: 60%;
+    
+    height: 7.125rem;
+    top: 15.625rem;
+    right:35%; /* Adjust the left position as needed */
+    font-family: 'New York';
+    font-size: 48px;
+    font-weight:674;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-align: left; /* Align text to the left */
+    position: absolute;
+}
+
+
+.image {
+    width: 19.563rem;
+    height: 36.563rem;
+    top: 16px;
+    right: 5%;
+    position: absolute;
+}
+
+/* Second Section */
+#second-section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+
+.second-background {
+    background-image: url(second-background.png);
+    width: 100%;
+    max-width: 86.25rem;
+    height: 617px;
+    margin: 0 auto;
+    border-radius: 16px;
+    position: relative;
+}
+
+.second-background h4, .second-background h1 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-container i {
+    font-size: 3rem;
+}
+
+
+
+.flex-container h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.big-head {
+    color: #000;
+    font-family: 'Josefin Slab';
+font-size: 128px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+}
+
+/* Footer Section */
+.footer {
+    border-radius: 24px;
+    background: #E1DDD1;
+    text-align: center;
+    padding: 50px;
+   
+}
+
+
+.second-background{
+    padding: 10px;
+}
+.booking{
+    font-size: 2.9rem;
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.footer label {
+    color: #000;
+
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+   margin-right: 15%;
+}
+.footer i{
+   position: absolute;
+ z-index: 1;
+}
+#email {
+    position: relative;
+    width: 363px;
+    height: 50px;
+    border-radius: 14px;
+    border: 1px solid #00B1D9;
+    background: #C5E0E9;
+    flex-shrink: 0;
+    z-index: 0;
+}
+
+.footer button {
+    color: #1F403C;
+
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    width:8.438rem;
+    height: 50px;
+    border-radius: 16px;
+    border-bottom: 1px solid #076793;
+    background: #3FDCFF;
+    box-shadow: 0px 6px 4px -2px rgba(0, 0, 0, 0.03);
+    flex-shrink: 0;
+  }
+
+
+
+
+.second-background {
+    background-image: url(image/second-background.png);
+    width: 100%;
+    max-width: 86.25rem;
+    height: 38.563rem;
+    margin: 0 auto;
+    border-radius: 16px;
+    position: relative;
+  }
+  .footer {
+    text-align: center; /* Adjust as needed */
+  }
+  
+  .input-group {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 10px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .icon i {
+    color: #000; /* Adjust icon color as needed */
+  }
+  
+  #email {
+    width: 363px;
+    height: 50px;
+    padding-left: 30px; /* Adjust as needed to make space for the icon */
+    border-radius: 14px;
+    border: 1px solid #00B1D9;
+    background: #C5E0E9;
+    flex-shrink: 0;
+  }
+  /* Footer Section end */
+  
+/*   using media querry  from here */
+
+
+
+
+
